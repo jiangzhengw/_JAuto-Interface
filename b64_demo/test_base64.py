@@ -5,7 +5,7 @@ import json
 
 import requests
 import base64
-import request_api
+from b64_demo import request_api
 
 
 class TestBase64:
