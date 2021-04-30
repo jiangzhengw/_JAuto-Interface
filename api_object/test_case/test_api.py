@@ -4,12 +4,11 @@
 import pytest
 import yaml
 
-from api_object.api import api
+from api_object.test_case.test_base import TestBase
 
 
-class TestApi:
+class TestApi(TestBase):
     """test api case"""
-    api = api.API()
 
     def test_get_token_bak(self):
         res = self.api.get_token()
