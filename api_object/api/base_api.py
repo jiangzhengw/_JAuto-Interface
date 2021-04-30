@@ -9,4 +9,4 @@ class BaseApi:
 
     def requests_http(self, req):
         res = requests.request(**req)
-        return res
+        return res.json()
