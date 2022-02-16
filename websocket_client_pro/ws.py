@@ -14,3 +14,4 @@ result = ws.recv()
 print("接收结果：", result)
 # 5、关闭连
 ws.close()
+websocket.enableTrace()
