@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "ceshi-jiangzhengwei-win",
+    "children" : [ {
+      "name" : "19968-MainThread",
+      "children" : [ {
+        "name" : "test_case_1_2",
+        "uid" : "192867588afe0c63",
+        "parentUid" : "166a9128787ffd91fccbb8cab5feec59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645604614942,
+          "stop" : 1645604614942,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case_1_1",
+        "uid" : "43f5dd6e4064b79f",
+        "parentUid" : "166a9128787ffd91fccbb8cab5feec59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645604614940,
+          "stop" : 1645604614940,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "166a9128787ffd91fccbb8cab5feec59"
+    } ],
+    "uid" : "4f4b703245d1a67bbb83d822bfbeb313"
+  } ]
+}
